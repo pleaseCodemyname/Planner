@@ -1,0 +1,5 @@
+# node_modules
+*node_modules
+
+# pakcage.json & package-lock.json
+*.json
