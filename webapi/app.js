@@ -14,8 +14,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-const account = require('./routes/account2.js');
-const event = require('./routes/event4.js');
+const account = require('./routes/account3.js');
+const event = require('./routes/event5.js');
 app.use(cors());
 app.use(account); // account.js 모듈 호출
 app.use(event); // event.js 모듈 호출
