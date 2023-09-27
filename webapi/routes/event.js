@@ -697,8 +697,7 @@ async function getGoalById(goalId) {
     throw error; // 오류를 호출한 쪽으로 다시 전파
   }
 }
-// 11) 일정 수정
-// 12) 일정 수정 (일부 필드만 업데이트)
+
 // 12) Update an event
 app.put("/event/update/:event_id", requireLogin, async (req, res) => {
   const user = req.user;
